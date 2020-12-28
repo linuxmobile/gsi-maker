@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://netix.dl.sourceforge.net/project/ancientrom/lavender/AncientOS-weeaboify-v4.0-Final-lavender-Koshiki-20200928-1205-Vanilla.zip 
-  ROM_NAME: Generic
+  ROM_URL: https://download.meizu.com/Firmware/Flyme/meizu17/8.20.12.22/cn_daily/20201222011319/2bd1965f/update.zip
+  ROM_NAME: Flyme
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Ancientos4.0
+  ZIP_NAME: Flyme
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/erkanergen7/ErfanGSIs-VelanGSIs.git  ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/DeclanShao/ErfanGSIs.git  ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
