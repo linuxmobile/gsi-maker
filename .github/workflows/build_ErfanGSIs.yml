@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://sourceforge.net/projects/nusantaraproject/files/beryllium/Nusantara_v2.5-11-beryllium-26122020-OFFICIAL-1403.zip/download
+  ROM_URL: https://netix.dl.sourceforge.net/project/nusantaraproject/beryllium/Nusantara_v2.5-11-beryllium-26122020-OFFICIAL-1403.zip
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
