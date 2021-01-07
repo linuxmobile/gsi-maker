@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://download.meizu.com/Firmware/Flyme/meizu17/8.20.12.22/cn_daily/20201222011319/2bd1965f/update.zip
-  ROM_NAME: Flyme
+  ROM_URL: https://sourceforge.net/projects/nusantaraproject/files/beryllium/Nusantara_v2.5-11-beryllium-26122020-OFFICIAL-1403.zip/download
+  ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Flyme
+  ZIP_NAME: Nusantara-beryllium
 jobs:
   build:
     runs-on: ubuntu-latest
