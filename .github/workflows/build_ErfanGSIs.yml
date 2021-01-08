@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/du_ginkgo-v14.7-20210107-0038-UNOFFICIAL.zip
-  ROM_NAME: Generic
+  ROM_URL: https://tdrive.elytra8.workers.dev/xiaomi.eu_multi_HMK20MI9T_21.1.6_v12-11.zip
+  ROM_NAME: MIUI:MIUI 12.5
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: du_ginkgo-v14.7
+  ZIP_NAME: xiaomi.eu_multi_HMK20MI9T_21.1.6_v12-11
 jobs:
   build:
     runs-on: ubuntu-latest
