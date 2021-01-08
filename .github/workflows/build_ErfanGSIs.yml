@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ufpr.dl.sourceforge.net/project/shivatejapeddi/A11/AospExtended-v8.0-beryllium-UNOFFICIAL-20210107-0009.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/Fluid-1.1-Rum-OFFICIAL-davinci-20210107-gapped.zip
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: AospExtended-v8.0-beryllium
+  ZIP_NAME: Fluid-1.1-Rum-lavender
 jobs:
   build:
     runs-on: ubuntu-latest
