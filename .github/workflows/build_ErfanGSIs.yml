@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/Fluid-1.1-Rum-OFFICIAL-davinci-20210107-gapped.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/EvolutionX_5.3_jasmine_sprout-11-20210108-0137-OFFICIAL.zip
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Fluid-1.1-Rum-lavender
+  ZIP_NAME: EvolutionX_5.3_jasmine
 jobs:
   build:
     runs-on: ubuntu-latest
