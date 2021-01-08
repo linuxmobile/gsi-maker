@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://netix.dl.sourceforge.net/project/nusantaraproject/beryllium/Nusantara_v2.5-11-beryllium-26122020-OFFICIAL-1403.zip
+  ROM_URL: https://get.mirror2.arrowos.net/download.php?token=EfvAR8s53IJ7ydNcquZmgiHKOw1eBQbU96thzjVY4SrDCaLMPnXlpkToF2xG&version=arrow-11.0&variant=community&device=lavender
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Nusantara-beryllium
+  ZIP_NAME: Arrow-os_night-lavender
 jobs:
   build:
     runs-on: ubuntu-latest
