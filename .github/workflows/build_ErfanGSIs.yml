@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://sourceforge.net/projects/pixelextended/files/Ginkgo/PixelExtended_ginkgo-11.0-20210108-0456-OFFICIAL.zip/download
+  ROM_URL: https://tdrive.elytra8.workers.dev/PixelExtended_ginkgo-11.0-20210108-0456-OFFICIAL.zip
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
