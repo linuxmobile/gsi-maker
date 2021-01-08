@@ -34,3 +34,5 @@
 ### 11 R： ###
 > Generic	
 > Pixel
+> OxygenOS
+> VOS
