@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/PixelExtended_ginkgo-11.0-20210108-0456-OFFICIAL.zip
-  ROM_NAME: Generic
+  ROM_URL: https://ava6.androidfilehost.com/dl/weLdv5Y2KKm4_rlZUTW4KA/1610215105/17248734326145711633/xiaomi.eu_multi_HMK20MI9T_21.1.6_v12-11.zip
+  ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: PixelExtended_2.2-beta
+  ZIP_NAME: xiaomi.eu_multi_HMK20MI9T_21.1.6_v12-11.
 jobs:
   build:
     runs-on: ubuntu-latest
