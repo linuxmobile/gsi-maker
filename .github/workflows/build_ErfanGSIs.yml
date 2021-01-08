@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://get.mirror2.arrowos.net/download.php?token=EfvAR8s53IJ7ydNcquZmgiHKOw1eBQbU96thzjVY4SrDCaLMPnXlpkToF2xG&version=arrow-11.0&variant=community&device=lavender
+  ROM_URL: https://pixysos.com/lavender/eleven/PixysOS-v4.0.3-GAPPS-lavender-OFFICIAL-20210106-025644.zip
   ROM_NAME: Generic
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Arrow-os_night-lavender
+  ZIP_NAME: pixyos_v4.0.3-lavender
 jobs:
   build:
     runs-on: ubuntu-latest
