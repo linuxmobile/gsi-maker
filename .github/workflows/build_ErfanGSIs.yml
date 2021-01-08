@@ -5,7 +5,7 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ava6.androidfilehost.com/dl/weLdv5Y2KKm4_rlZUTW4KA/1610215105/17248734326145711633/xiaomi.eu_multi_HMK20MI9T_21.1.6_v12-11.zip
+  ROM_URL: https://tdrive.elytra8.workers.dev/xiaomi.eu_multi_HMK20MI9T_21.1.6_v12-11.zip
   ROM_NAME: MIUI
   TZ: Asia/Kolkata
   MIR: wet
