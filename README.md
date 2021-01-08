@@ -22,6 +22,15 @@
 > Pixel
 > ZenUI (thanks to Vega)
 > ColorOS
+> Flyme
+> JoyUI
+> LGUX
+> Moto
+> OneUI
+> OriginOS
+> OneUI
+> RogUI
+> ZUI
 ### 11 R： ###
 > Generic	
 > Pixel
