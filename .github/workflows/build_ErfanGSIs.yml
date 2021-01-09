@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/ProjectSakura-4.R-GAPPS-20210108-1432-phoenix-OFFICIAL.zip
-  ROM_NAME: Generic:ProjectSakura-4.R
+  ROM_URL: https://tdrive.elytra8.workers.dev/crDroidAndroid-11.0-20210109-ginkgo-v7.2.zip
+  ROM_NAME: Generic:crDroid-7.2.R
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: ProjectSakura-4.R
+  ZIP_NAME: crDroid-7.2.R
 jobs:
   build:
     runs-on: ubuntu-latest
