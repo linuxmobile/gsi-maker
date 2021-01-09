@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://ufpr.dl.sourceforge.net/project/shapeshiftos/davinci/ShapeShiftOS-2.1-Delibird-OFFICIAL-ssos_davinci-20210108-1835.zip
-  ROM_NAME: Generic:shapeshiftos-2.1-Delibird
+  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH1917_Q/CPH1917EX_11_OTA_2350_all_wRHBSFRDdkNr.ozip
+  ROM_NAME: ColorOS:ColorOS-Q
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: ShapeShiftOS-2.1-Delibird
+  ZIP_NAME: ColorOS_reno
 jobs:
   build:
     runs-on: ubuntu-latest
