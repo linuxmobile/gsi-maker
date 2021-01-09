@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://assorted.downloads.oppo.com/firmware/CPH1917_Q/CPH1917EX_11_OTA_2350_all_wRHBSFRDdkNr.ozip
-  ROM_NAME: ColorOS:ColorOS-Q
+  ROM_URL: https://mpl1.androidfilehost.com/dl/947ohPlk8gtjg1vA8QpNUg/1610249729/17248734326145711856/MIUIPLUS.NOTE+7_Lavender.21.1.6_v12.5-10.zip
+  ROM_NAME: MIUI:MIUIPLUS-21.1.6
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: ColorOS_reno
+  ZIP_NAME: MIUIPLUS-21.1.6_NOTE+7
 jobs:
   build:
     runs-on: ubuntu-latest
