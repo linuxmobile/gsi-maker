@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDk4MDE1MDYiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjhhODMwZTQ4ZjI5NmI3MmY3NzNhZmQ1MzJiODEwZjhkZWI0MDA0MDg2MmE3YzYxYzU5NDlmODI3OTk4MjZmYTFiY2Y5ZGNjZGRiMjQwNzM0YjE1MDM2MjRkYzgyZjI0MGRlM2FhMjI3MjViOGYwYzZhMDNlZDk1YzQ2OGNhM2EyIiwidCI6MTYxMDIxMDQ5Miwic3RmcCI6ImE5MzBiNWQ5M2RjNzk4ZjE4MjAzMjgxODExZDI0MmZjIiwic3RpcCI6IjE4MS4xNzEuNTEuNDMifQ.xAsKu3_RHNDAiALkpG8xLyC0lDoEyDyWJ-CSg38mKns/Nusantara_v2.5-11-miatoll-03012021-OFFICIAL-1650.zip
-  ROM_NAME: Generic:Nusantara_v2.5-11
+  ROM_URL: https://ufpr.dl.sourceforge.net/project/xiaomi-eu-multilang-miui-roms/xiaomi.eu/MIUI-STABLE-RELEASES/MIUIv12/xiaomi.eu_multi_MIMAX3_V12.0.1.0.QEDCNXM_v12-10.zip
+  ROM_NAME: MIUIDebloat:xiaomi.eu_multi_MIMAX3_V12.0.1.0
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: Nusantara_v2.5-11
+  ZIP_NAME: xiaomi.eu_multi_MIMAX3_V12.0.1.0
 jobs:
   build:
     runs-on: ubuntu-latest
@@ -26,7 +26,7 @@ jobs:
 
        
        - name: Clone ErfanGSI Source Code
-         run: git clone --recurse-submodules https://github.com/Velosh/ErfanGSIs-VelanGSIs.git ErfanGSIs
+         run: git clone --recurse-submodules https://github.com/nnippon/ErfanGSIs ErfanGSIs
        
        - name: Setting up ErfanGSI requirements
          run: |
