@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTAxNjk2NTQiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6Ijc4ZGMzNTUyMzYxNTlhMmE2OGM2YmE2ZDk5YjliMGEyNzMyOWI1MWEyMTIxMmFiNGViMTYyZjQyYjc3ZGY0YTBjNWY5MjQ3NGI4Mzk4ZDUwNDA2NTU2NDBhYWExN2EyOWM3ODlkM2JmODcyY2UwOGJhYzljZjg3Yzc2MDRkZGRiIiwidCI6MTYxMDIwNjg5Niwic3RmcCI6ImE5MzBiNWQ5M2RjNzk4ZjE4MjAzMjgxODExZDI0MmZjIiwic3RpcCI6IjE4MS4xNzEuNTEuNDMifQ.Y0INVNxpbzsXVSOo5lo2oa37EkwzdjT-M1MlJmfWKds/Havoc-OS-v3.12-FrozenFire-20210108-mido.zip
-  ROM_NAME: Generic:HavocOS-v3.12-FrozenFire_Edition
+  ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MDk4MDE1MDYiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6IjhhODMwZTQ4ZjI5NmI3MmY3NzNhZmQ1MzJiODEwZjhkZWI0MDA0MDg2MmE3YzYxYzU5NDlmODI3OTk4MjZmYTFiY2Y5ZGNjZGRiMjQwNzM0YjE1MDM2MjRkYzgyZjI0MGRlM2FhMjI3MjViOGYwYzZhMDNlZDk1YzQ2OGNhM2EyIiwidCI6MTYxMDIxMDQ5Miwic3RmcCI6ImE5MzBiNWQ5M2RjNzk4ZjE4MjAzMjgxODExZDI0MmZjIiwic3RpcCI6IjE4MS4xNzEuNTEuNDMifQ.xAsKu3_RHNDAiALkpG8xLyC0lDoEyDyWJ-CSg38mKns/Nusantara_v2.5-11-miatoll-03012021-OFFICIAL-1650.zip
+  ROM_NAME: Generic:Nusantara_v2.5-11
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: HavocOS-v3.12-FrozenFire_Edition
+  ZIP_NAME: Nusantara_v2.5-11
 jobs:
   build:
     runs-on: ubuntu-latest
