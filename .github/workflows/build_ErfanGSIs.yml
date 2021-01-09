@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://mpl1.androidfilehost.com/dl/947ohPlk8gtjg1vA8QpNUg/1610249729/17248734326145711856/MIUIPLUS.NOTE+7_Lavender.21.1.6_v12.5-10.zip
-  ROM_NAME: MIUI:MIUIPLUS-21.1.6
+  ROM_URL: https://tdrive.elytra8.workers.dev/ProjectSakura-4.R-GAPPS-20210108-1432-phoenix-OFFICIAL.zip
+  ROM_NAME: Generic:ProjectSakura-4.R
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: MIUIPLUS-21.1.6_NOTE+7
+  ZIP_NAME: ProjectSakura-4.R
 jobs:
   build:
     runs-on: ubuntu-latest
