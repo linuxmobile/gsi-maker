@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/xiaomi.eu_multi_HMK20MI9T_21.1.6_v12-11.zip
-  ROM_NAME: MIUI:MIUI 12.5
+  ROM_URL: https://ufpr.dl.sourceforge.net/project/shapeshiftos/davinci/ShapeShiftOS-2.1-Delibird-OFFICIAL-ssos_davinci-20210108-1835.zip
+  ROM_NAME: Generic:shapeshiftos-2.1-Delibird
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: xiaomi.eu_multi_HMK20MI9T_21.1.6_v12-11
+  ZIP_NAME: ShapeShiftOS-2.1-Delibird
 jobs:
   build:
     runs-on: ubuntu-latest
