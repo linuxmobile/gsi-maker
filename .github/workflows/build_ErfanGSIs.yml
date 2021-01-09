@@ -5,11 +5,11 @@ on:
     types: [started]
     
 env:
-  ROM_URL: https://tdrive.elytra8.workers.dev/crDroidAndroid-11.0-20210109-ginkgo-v7.2.zip
-  ROM_NAME: Generic:crDroid-7.2.R
+  ROM_URL: https://dllb2.pling.com/api/files/download/j/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpZCI6IjE2MTAxNjk2NTQiLCJ1IjpudWxsLCJsdCI6ImRvd25sb2FkIiwicyI6Ijc4ZGMzNTUyMzYxNTlhMmE2OGM2YmE2ZDk5YjliMGEyNzMyOWI1MWEyMTIxMmFiNGViMTYyZjQyYjc3ZGY0YTBjNWY5MjQ3NGI4Mzk4ZDUwNDA2NTU2NDBhYWExN2EyOWM3ODlkM2JmODcyY2UwOGJhYzljZjg3Yzc2MDRkZGRiIiwidCI6MTYxMDIwNjg5Niwic3RmcCI6ImE5MzBiNWQ5M2RjNzk4ZjE4MjAzMjgxODExZDI0MmZjIiwic3RpcCI6IjE4MS4xNzEuNTEuNDMifQ.Y0INVNxpbzsXVSOo5lo2oa37EkwzdjT-M1MlJmfWKds/Havoc-OS-v3.12-FrozenFire-20210108-mido.zip
+  ROM_NAME: Generic:HavocOS-v3.12-FrozenFire_Edition
   TZ: Asia/Kolkata
   MIR: wet
-  ZIP_NAME: crDroid-7.2.R
+  ZIP_NAME: HavocOS-v3.12-FrozenFire_Edition
 jobs:
   build:
     runs-on: ubuntu-latest
